@@ -35,10 +35,10 @@ body {
 
 }
 
-#main {
-    width: 100%;
+/* #main {
+    height: 2px;
     background-color: black;
-}
+} */
 
 #hero {
     position: relative;
@@ -276,6 +276,7 @@ body {
     flex-direction: column;
     text-align: center;
     color: white;
+    padding-top: 80px;
 }
 
 .back-video {
@@ -292,11 +293,13 @@ body {
 .big-text {
     font-size: 7rem;
     font-weight: bold;
+    z-index: 1;
 }
 
 .caption {
     font-size: 1rem;
     margin-top: 1rem;
+    z-index: 1;
 }
 
 .navbar {
@@ -309,6 +312,7 @@ body {
     top: 0;
     left: 0;
     box-sizing: border-box;
+    z-index: 10;
 }
 
 .navbar img {
